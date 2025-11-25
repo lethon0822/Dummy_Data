@@ -19,11 +19,11 @@ public class InsurePolicy {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "PRODUCT_ID", nullable = false)
-    private InsureProduct product;   // TB_INSURE_PRODUCT 참조
+    private InsureProduct productId;   // TB_INSURE_PRODUCT 참조
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CUST_ID", nullable = false)
-    private Customer customer;       // TB_CUST_MST 참조
+    private Customer customerId;       // TB_CUST_MST 참조
 
     @Column(name = "START_DATE", nullable = false)
     private java.sql.Date startDate;
