@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://192.168.0.144:3307/db_odd_adv_4
+    url: jdbc:mysql://192.168.0.120:3307/db_odd_adv_4
     username: odd_adv_4
     password: row502
 
